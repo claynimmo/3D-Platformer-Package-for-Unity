@@ -81,7 +81,7 @@ public class Movement : MonoBehaviour
     private void OnDisable(){
         move.Disable();
         jump.Disable();
-		jump -= Jump;
+		jump.performed -= Jump;
     }
     // Start is called before the first frame update
     void Start()
@@ -226,4 +226,5 @@ public class Movement : MonoBehaviour
         maxjumps = jumps;
     }
 }
+
 
