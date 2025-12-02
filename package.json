@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "3D Platformer Basics",
   "description": "Core scripts required for a 3D platformer, including health, movement, and platform types",
-  "unity": "2022.3.46f",
+  "unity": "2022.3",
   "author": {
     "name": "Clay",
     "email": "nimmo.clay@gmail.com",
